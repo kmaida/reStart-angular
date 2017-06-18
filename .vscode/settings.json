@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#e62a39",
+    "activityBarBadge.foreground": "#ffffff",
+    "tab.activeBackground": "#b92933",
+    "titleBar.activeBackground": "#b92933",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#b92933",
+    "titleBar.inactiveForeground": "#b1b1b1",
+    "statusBar.background": "#b92933"
+  }
+}
