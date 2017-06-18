@@ -1,0 +1,42 @@
+<article id="content-wrapper" class="content-wrapper">
+
+  <app-loading *ngIf="loading"></app-loading>
+
+  <section id="content-main" class="content-main clearfix" *ngIf="isLoaded">
+    <h1 class="content-heading">{{pageName}}</h1>
+
+    <div class="form-inline">
+      <div class="form-group mb-sm-3">
+        <label for="inputName" class="mr-sm-2">Name:</label>
+        <input
+          id="inputName"
+          type="text"
+          [(ngModel)]="name"
+          class="form-control mr-sm-2" />
+        <button
+          (click)="global.alertGreeting(name)"
+          [disabled]="!name"
+          class="btn btn-primary">Greet</button>
+      </div>
+    </div>
+
+    <h2>{{global.greeting}}, {{name}}!</h2>
+
+    <p [innerHTML]="data.summary"></p>
+
+    <h3>View Switching</h3>
+
+    <p>The following view is manipulated by the current media query. Resize your browser window to see the display change.</p>
+
+    <p>
+      <strong>Display:</strong> {{displaySize}}
+    </p>
+
+    <!-- show if small view -->
+    <app-small *ngIf="!mqview.getIsLarge" [animals]="data.animals"></app-small>
+
+    <!-- show if large view -->
+    <app-large *ngIf="mqview.getIsLarge" [animals]="data.animals"></app-large>
+
+  </section>
+</article>

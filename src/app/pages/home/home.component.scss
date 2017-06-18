@@ -1,0 +1,10 @@
+/*--------------------
+         HOME
+--------------------*/
+
+.home-search {
+  margin-bottom: 20px;
+}
+:host() /deep/ .styled {
+  color: red;
+}

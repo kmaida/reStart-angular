@@ -1,0 +1,22 @@
+{
+	"title": "reStart-Angular",
+	"summary": "This is the reStart responsive framework in Angular. <strong>This should be strong</strong> and <span class='styled'>this has a class in the JSON that should be styled by the component displaying it</span>. There is also <a href='#'>a link</a>.",
+  "animals": [
+    {
+      "name": "domestic cat",
+      "class": "mammal"
+    },
+    {
+      "name": "goldfish",
+      "class": "fish"
+    },
+    {
+      "name": "hawk",
+      "class": "bird"
+    },
+    {
+      "name": "frog",
+      "class": "amphibian"
+    }
+  ]
+}
