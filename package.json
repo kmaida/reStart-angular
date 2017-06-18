@@ -1,6 +1,6 @@
 {
-  "name": "re-start-angular",
-  "version": "0.0.0",
+  "name": "restart-angular",
+  "version": "0.8.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
